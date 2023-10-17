@@ -1,0 +1,22 @@
+<?php 
+return [
+  'GestionEmplois' => 'إدارة الوقت',
+  'CreateEmplois' => '',
+  'ListeEmplois' => '',
+  'SelectClasse' => '',
+  'Horaires' => '',
+  'CoursDeMatin' => '',
+  'CourDeMidi' => '',
+  'CourDeSoir' => '',
+  'LUNDI' => '',
+  'MARDI' => '',
+  'MERCREDI' => '',
+  'JEUDI' => '',
+  'VENDREDI' => '',
+  'SAMEDI' => '',
+  'de' => '',
+  'a' => '',
+  'AfficheEmplois' => '',
+  'Nouveau' => '',
+  'ModifEmplois' => '',
+];

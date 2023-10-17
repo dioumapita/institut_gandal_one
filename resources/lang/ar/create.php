@@ -1,0 +1,23 @@
+<?php 
+return [
+  'Inscription_eleve' => 'تسجيل الطالب',
+  'Etape' => 'المسرح',
+  'Sexe' => 'الجنس',
+  'Date_naiss' => 'تاريخ الميلاد',
+  'Téléphone' => 'هاتف',
+  'Quartier' => 'يصرف',
+  'PrendLaPhone' => 'التقاط الصورة',
+  'SelectImage' => 'حدد صورة الملف الشخصي',
+  'NomTuteur' => 'اسم الوالد أو الوصي',
+  'PrenomTuteur' => 'الاسم الأول لولي الأمر أو الوصي',
+  'Profession' => 'مهنة الوالد أو الوصي',
+  'TelTuteur' => 'رقم هاتف الوالد أو الوصي',
+  'Frais D\'inscription' => 'رسوم التسجيل',
+  'Reinscription_eleve' => 'إعادة قيد التلميذ',
+  'Frais_Reinscription' => 'رسوم إعادة القيد',
+  'Arrierer' => 'خلف',
+  'ModifInfosEleve' => 'تغيير معلومات الطالب',
+  'Profil_Eleve' => 'الملف الشخصي للطالب',
+  'Info_general_eleve' => 'معلومات عامة عن الطالب',
+  'info_familliale' => 'معلومات العائلة',
+];
