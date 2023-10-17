@@ -312,7 +312,7 @@
                                     <u class="souligner">I.R.E: Conakry</u>
                                 </h4>
                                 <h4 class="font-bold addr-font-h4">
-                                    <u class="souligner">I.S.S.D GANDAL PLUS</u>
+                                    <u class="souligner">I.S.S.D GANDAL</u>
                                 </h4>
                             </address>
                         </div>
@@ -417,7 +417,7 @@
                                 <div id="vendeur" class="col-md-6 pull-right">
                                     <h4 class="font-bold text-right">
                                         Comptable<br>
-                                        626-00-91-91
+                                        622-52-47-45
                                     </h4>
                                 </div>
                             </div>
@@ -445,7 +445,7 @@
                                     <u class="souligner">I.R.E: Conakry</u>
                                 </h4>
                                 <h4 class="font-bold addr-font-h4">
-                                    <u class="souligner">I.S.S.D GANDAL PLUS</u>
+                                    <u class="souligner">I.S.S.D GANDAL</u>
                                 </h4>
                             </address>
                         </div>
@@ -524,7 +524,7 @@
                                 </div>
                                 <div id="vendeur" class="col-md-6 pull-right">
                                     <h4 class="font-bold text-right">
-                                        Comptable <br> 626-00-91-91
+                                        Comptable <br> 622-52-47-45
                                     </h4>
                                 </div>
                             </div>

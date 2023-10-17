@@ -27,11 +27,6 @@
 									<span class="title">Menu principal</span>
 								</a>
 							</li>
-                            <li class="nav-item">
-								<a href="https://gandal.ecole-syba.com/home" class="nav-link nav-toggle"> <i class="material-icons">web</i>
-									<span class="title">Pré-universitaire</span>
-								</a>
-							</li>
 							<li class="nav-item {{ set_active_route('liste_des_themes') }}">
 								<a href="{{ route('liste_des_themes') }}" class="nav-link nav-toggle"> <i class="material-icons">color_lens</i>
 									<span class="title">Thèmes</span>

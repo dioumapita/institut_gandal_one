@@ -190,7 +190,7 @@
                                         <u class="souligner">I.R.E: Conakry</u>
                                     </h4>
                                     <h4 class="font-bold addr-font-h4">
-                                        <u class="souligner">I.S.S.D GANDAL PLUS</u>
+                                        <u class="souligner">I.S.S.D GANDAL</u>
                                     </h4>
                                 </address>
                             </div>
