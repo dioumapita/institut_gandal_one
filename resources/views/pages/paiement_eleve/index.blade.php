@@ -164,7 +164,7 @@
                                                                         </h4>
                                                                     </div>
                                                                         {{-- si l'élève a tous solder on empêche le paiement  --}}
-                                                                        @if ($inscription->niveau->frais_scolaires->where('annee_id',$annee_courante->id)->first()->scolarite == ($inscription->eleve->paiementEleves->where('annee_id',$annee_courante->id)->where('status',1)->sum('somme_payer') + $inscription->eleve->remisePaiementEleves->where('annee_id',$annee_courante->id)->sum('montant_reduit')))
+                                                                        @if (($inscription->niveau->frais_scolaires->where('annee_id',$annee_courante->id)->first()->scolarite + $inscription->niveau->frais_scolaires->where('annee_id',$annee_courante->id)->first()->frais_inscription) == ($inscription->eleve->paiementEleves->where('annee_id',$annee_courante->id)->where('status',1)->sum('somme_payer') + $inscription->eleve->remisePaiementEleves->where('annee_id',$annee_courante->id)->sum('montant_reduit')))
                                                                             <br>
                                                                             <h4 class="text-center">Vous ne pouvez pas effectuez de paiement pour cet élève car il a tout payé.</h4>
                                                                             <div class="container center">
