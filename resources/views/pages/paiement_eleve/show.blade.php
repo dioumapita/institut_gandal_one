@@ -67,6 +67,7 @@
                                                     <th> Tranche</th>
                                                     <th> Type Paiement</th>
                                                     <th> Date </th>
+                                                    <th> Actions </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -86,6 +87,40 @@
                                                         </td>
                                                         <td>
                                                             {{ $paiement->date_paiement->format('d/m/Y') }}
+                                                        </td>
+                                                        <td>
+                                                            <a href="#myModaldelete" data-toggle="modal" onclick="deleteData({{ $paiement->id }})"
+                                                                class="btn btn-danger">
+                                                                <i class="fa fa-trash"></i> Supprimer
+                                                            </a>
+                                                            <div id="myModaldelete" class="mt-5 modal fade" data-backdrop="static">
+                                                                <div class="mt-5 modal-dialog modal-confirm">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header flex-column">
+                                                                            <div class="icon-box">
+                                                                                <i class="material-icons">&#xE5CD;</i>
+                                                                            </div>
+                                                                            <h4 class="modal-title w-100">Êtes-vous certain?</h4>
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <p>
+                                                                                Vous pouvez restaurer vos données supprimer au niveau de la corbeille
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="modal-footer justify-content-center">
+                                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                                                                            <form action="{{ route('paiement_eleve.destroy',$paiement->id) }}" method="post" id="deleteform">
+                                                                                {{ csrf_field() }}
+                                                                                {{ method_field('DELETE') }}
+                                                                                <button  type="button" onclick = "formSubmit()" class="btn btn-danger" data-dismiss="modal">
+                                                                                    Oui Supprimer
+                                                                                </button>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 @endforeach
